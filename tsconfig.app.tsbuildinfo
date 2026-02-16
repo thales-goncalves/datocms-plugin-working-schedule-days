@@ -1,0 +1,1 @@
+{"root":["./src/main.tsx","./src/vite-env.d.ts","./src/components/closeicon.tsx","./src/components/minusicon.tsx","./src/components/plusicon.tsx","./src/entrypoints/configscreen.tsx","./src/entrypoints/workingschedule.tsx","./src/lib/constants.ts","./src/lib/formvalueshelper.ts","./src/lib/helper.ts","./src/lib/savefieldvalue.ts","./src/utils/render.tsx"],"version":"5.9.3"}

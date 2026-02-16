@@ -1,0 +1,46 @@
+{
+  "name": "datocms-plugin-working-schedule-days",
+  "description": "A simple plugin to quick add open and close hours for each day or range days in the week",
+  "homepage": "https://github.com/thales-goncalves/datocms-plugin-working-schedule-days",
+  "private": false,
+  "version": "0.1.1",
+  "author": "Thales Gonçalves <thales.g.goncalves@outlook.com>",
+  "type": "module",
+  "keywords": [
+    "datocms-plugin",
+    "schedule",
+    "working-hours"
+  ],
+  "datoCmsPlugin": {
+    "title": "Datocms Plugin Working Schedule Days",
+    "coverImage": "docs/cover.png",
+    "previewImage": "docs/preview.gif",
+    "entryPoint": "dist/index.html",
+    "permissions": []
+  },
+  "files": [
+    "dist",
+    "docs"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "datocms-plugin-sdk": "*",
+    "datocms-react-ui": "*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/uuid": "^10.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
